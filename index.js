@@ -65,4 +65,12 @@ function view(){
 
     render.innerHTML = listItem
     }
+    input.addEventListener("keyup", function(event) {
+        event.preventDefault();
+        if (event.keyCode === 13) {
+         
+            addBtn.click();
+          
+        }
+      })
     console.log(todoFromLocalStorage)
