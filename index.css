@@ -8,7 +8,7 @@ body{
     position: absolute;
     width: 550px;
    min-height: 620px;
-    left: 450px;
+    left: 400px;
     top: 20px;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -146,12 +146,18 @@ li{
 
 
 @media screen and (max-width:500px){
+    #nav{
+        display: flex;
+        margin-left: 70px;
+    }
     .whole{
         
-        width: 550px;
+        width: 400px;
        min-height: 800px;
-       left:0;
+       left:0px;
+       right:0;
         top: 20px;
+        
         
         margin-top: 5px;
         margin-bottom: 10px;
@@ -160,4 +166,97 @@ li{
         
         background: linear-gradient(45deg, #774533, #825536); 
     }
+
+    #input{
+        box-sizing: border-box;
+    
+       
+        width: 360px;
+        height: 53px;
+        margin-left: -20px;
+        top: 60px;
+        background: #BCAA98;
+        border: 2px  ;
+        border-radius: 9px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 100px;
+        font-size: 25px;
+        line-height: 5px;
+        /* or 42% */
+        
+        text-align: center;
+        
+        color: #FFFFFF;
+        box-shadow:   0 0 10px #774533
+    }
+    #addBtn{
+        min-height: 45px;
+        width: 70px;
+        font-size: 22.5px;
+        font-weight: 70px;
+        background: #C8BDB2;
+        border:  none;
+        border-radius: 9px ;
+        font-family: 'Crimson Text', serif;
+        color: #774533;
+        margin-top: 12px;
+        margin-left: 270px;
+        text-align: center;
+       
+        
+    }
+
+    #schedule{
+        position: absolute;
+        margin-top: 115px;
+        margin-left: 20px;
+}
+
+#theDate{
+    margin-right: 10px;
+    border-radius: 9px;
+    border: none;
+    box-shadow:   0 0 10px #774533;
+    background: #BCAA98;
+    color: #774533;
+    min-height: 45px;
+    min-width: 90px;
+    font-size: 20px;
+    font-weight: 65px;
+}
+#theTime{
+    border-radius: 9px;
+    border: none;
+    box-shadow:   0 0 10px #774533;
+    background: #BCAA98;
+    color: #774533;
+    min-height: 45px;
+    width: 90px;
+    font-size: 20px;
+    font-weight: 65px;
+}
+.rendering{
+    margin-top: 170px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    
+}
+
+#delete-btn{
+   
+    margin-left: 20px ;
+    min-height: 45px;
+    
+    
+}
+
+#inputHead{
+    margin-left: 40px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+
 }
