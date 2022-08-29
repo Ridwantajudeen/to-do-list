@@ -143,3 +143,21 @@ li{
     font-family: 'Crimson Text', serif;
     color: #774533;
 }
+
+
+@media screen and (max-width:500px){
+    .whole{
+        
+        width: 550px;
+       min-height: 800px;
+       left:0;
+        top: 20px;
+        
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        padding-bottom: 20px;
+        
+        background: linear-gradient(45deg, #774533, #825536); 
+    }
+}
