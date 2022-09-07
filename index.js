@@ -26,8 +26,9 @@ addBtn.addEventListener("click", function () {
 
 
    
+   
     
-     toDO.push(input.value + " " + "On" +" " + myDate.value + " " +"At" + " " + myTime.value )
+     toDO.push(input.value + " " + myDate.value + " " + myTime.value )
     view()
     console.log(toDO)
     input.value = ""

@@ -146,16 +146,18 @@ li{
 
 
 @media screen and (max-width:500px){
+    
     #nav{
         display: flex;
-        margin-left: 70px;
+        margin-left: 30px;
     }
     .whole{
         
-        width: 400px;
+        width: 350px;
        min-height: 800px;
-       left:0px;
-       right:0;
+       
+     left:12px;
+     right: 0;
         top: 20px;
         
         
@@ -171,11 +173,11 @@ li{
         box-sizing: border-box;
     
        
-        width: 360px;
+        width: 300px;
         height: 53px;
         margin-left: -20px;
         top: 60px;
-        background: #BCAA98;
+        background: grey;
         border: 2px  ;
         border-radius: 9px;
         font-family: 'Inter';
@@ -187,21 +189,21 @@ li{
         
         text-align: center;
         
-        color: #FFFFFF;
+        color: #ffff;
         box-shadow:   0 0 10px #774533
     }
     #addBtn{
         min-height: 45px;
         width: 70px;
-        font-size: 22.5px;
-        font-weight: 70px;
+        font-size: 21px;
+        font-weight: 60px;
         background: #C8BDB2;
         border:  none;
         border-radius: 9px ;
         font-family: 'Crimson Text', serif;
         color: #774533;
         margin-top: 12px;
-        margin-left: 270px;
+        margin-left: 200px;
         text-align: center;
        
         
@@ -221,7 +223,7 @@ li{
     background: #BCAA98;
     color: #774533;
     min-height: 45px;
-    min-width: 90px;
+    width: 60px;
     font-size: 20px;
     font-weight: 65px;
 }
@@ -229,10 +231,10 @@ li{
     border-radius: 9px;
     border: none;
     box-shadow:   0 0 10px #774533;
-    background: #BCAA98;
+        background: #BCAA98;
     color: #774533;
     min-height: 45px;
-    width: 90px;
+    width: 50px;
     font-size: 20px;
     font-weight: 65px;
 }
@@ -257,6 +259,9 @@ li{
     margin-top: 50px;
     position: absolute;
 }
+
+
+
 
 
 }
