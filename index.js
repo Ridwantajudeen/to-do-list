@@ -74,4 +74,7 @@ function view(){
           
         }
       })
+
+      const year = document.getElementById('year');
+year.innerHTML = new Date().getFullYear();
     console.log(todoFromLocalStorage)
