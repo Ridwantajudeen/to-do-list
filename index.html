@@ -18,8 +18,10 @@
         <button id="addBtn">ADD</button>
     </div>
     <div id="schedule">
-      <input id="theDate" type="date" />
-          <input id="theTime"  type="time" />
+      <input id="theDate" placeholder="MM/DD/YYYY"
+      onfocus="(this.type='date')" />
+          <input id="theTime"  placeholder="00:00"
+          onfocus="(this.type='time')" />
         </div>
 
         <div class="rendering">
@@ -29,9 +31,10 @@
         
         </div>
         <button id="delete-btn">CLEAR ALL</button>
-      </div>
       <p id="copy">© <span id="year"></span>
         Ridwan Tajudeen. all rights reserved.</p>
+      </div>
+
       <script src="index.js"></script>
     </body>
 </html>

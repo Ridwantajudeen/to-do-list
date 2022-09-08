@@ -2,18 +2,18 @@ body{
     background-image: url("images/background.jpg");
     background-size: cover;
     padding-bottom: 20px;
-}
-#copy{
+   }
+   #copy{
     color:#BCAA98;
-    margin-left:530px;
-    margin-top: 620px;
-    position: absolute;
-}
-
-.whole{
+    margin-left:140px;
+    margin-top: 250px;
+    position: relative;
+   }
+   
+   .whole{
     position: absolute;
     width: 550px;
-   min-height: 620px;
+      min-height: 620px;
     left: 400px;
     top: 20px;
     margin-top: 5px;
@@ -22,12 +22,12 @@ body{
     padding-bottom: 20px;
     
     background: linear-gradient(45deg, #774533, #825536); 
-}
-
-#input{
-    box-sizing: border-box;
-
+   }
    
+   #input{
+    box-sizing: border-box;
+   
+      
     width: 400px;
     height: 30px;
     margin-left: -20px;
@@ -46,14 +46,14 @@ body{
     
     color: #FFFFFF;
     box-shadow:   0 0 10px #774533
-}
-#inputHead{
+   }
+   #inputHead{
     margin-left: 60px;
     margin-top: 50px;
     position: absolute;
-}
-
-#addBtn{
+   }
+   
+   #addBtn{
     height: 30px;
     width: 70px;
     font-size: 22.5px;
@@ -64,53 +64,57 @@ body{
     font-family: 'Crimson Text', serif;
     color: #774533;
     
-}
-
-#icon{
+   }
+   
+   #icon{
     width:30px;
     height: 35px;
     margin-top: 20px;
     margin-left: 10px;
-}
-#nav{
+   }
+   #nav{
     display: flex;
     margin-left: 145px;
-}
-#title{
+   }
+   #title{
     height: 20px;
     color:#C8BDB2 ;
     
-}
-#schedule{
+   }
+   #schedule{
     position: absolute;
     margin-top: 90px;
-    margin-left: 210px;
+    margin-left: 150px;
     
-}
-#theDate{
+   }
+   #theDate{
     margin-right: 10px;
     border-radius: 9px;
     border: none;
     box-shadow:   0 0 10px #774533;
     background: #BCAA98;
     color: #774533;
-}
-#theTime{
+    width: 100px;
+   }
+   #theTime{
     border-radius: 9px;
     border: none;
     box-shadow:   0 0 10px #774533;
     background: #BCAA98;
     color: #774533;
-}
-.rendering{
+    width: 100px;
+    text-align: center;
+   }
+   .rendering{
     margin-top: 170px;
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 10px;
-
-}
-
-ul{
+    
+   
+   }
+   
+   ul{
     background: linear-gradient(45deg,#BCAA98, #C8BDB2);
     border-radius: 10px;
     list-style: none;
@@ -118,10 +122,10 @@ ul{
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 5px;
-
-
-}
-li{
+   
+   
+   }
+   li{
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 5px ;
@@ -131,11 +135,11 @@ li{
     padding-right: 5px;
     font-size: 21px;
     font-weight: 65px;
-
-}
-
-#delete-btn{
    
+   }
+   
+   #delete-btn{
+      
     margin-left: 440px ;
     
     height: 30px;
@@ -148,80 +152,82 @@ li{
     border-radius: 9px ;
     font-family: 'Crimson Text', serif;
     color: #774533;
-}
-
-
-@media screen and (max-width:500px){
+   }
+   
+   
+   @media screen and (max-width:500px){
+   
     
     #nav{
-        display: flex;
-        margin-left: 30px;
+     display: flex;
+     margin-left: 30px;
     }
     .whole{
-        
-        width: 350px;
+     
+     width: 350px;
        min-height: 800px;
        
-     left:12px;
+     
      right: 0;
-        top: 20px;
-        
-        
-        margin-top: 5px;
-        margin-bottom: 10px;
-        border-radius: 10px;
-        padding-bottom: 20px;
-        
-        background: linear-gradient(45deg, #774533, #825536); 
+     left: 12px;
+     
+     top: 20px;
+     margin-left: 0;
+     
+     margin-top: 5px;
+     margin-bottom: 10px;
+     border-radius: 10px;
+     padding-bottom: 20px;
+     
+     background: linear-gradient(45deg, #774533, #825536); 
     }
-
+   
     #input{
-        box-sizing: border-box;
+     box-sizing: border-box;
     
        
-        width: 300px;
-        height: 53px;
-        margin-left: -20px;
-        top: 60px;
-        background: grey;
-        border: 2px  ;
-        border-radius: 9px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 100px;
-        font-size: 25px;
-        line-height: 5px;
-        /* or 42% */
-        
-        text-align: center;
-        
-        color: #ffff;
-        box-shadow:   0 0 10px #774533
+     width: 300px;
+     height: 53px;
+     margin-left: -20px;
+     top: 60px;
+     background: grey;
+     border: 2px  ;
+     border-radius: 9px;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 100px;
+     font-size: 25px;
+     line-height: 5px;
+     /* or 42% */
+     
+     text-align: center;
+     
+     color: #ffff;
+     box-shadow:   0 0 10px #774533
     }
     #addBtn{
-        min-height: 45px;
-        width: 70px;
-        font-size: 21px;
-        font-weight: 60px;
-        background: #C8BDB2;
-        border:  none;
-        border-radius: 9px ;
-        font-family: 'Crimson Text', serif;
-        color: #774533;
-        margin-top: 12px;
-        margin-left: 200px;
-        text-align: center;
+     min-height: 45px;
+     width: 70px;
+     font-size: 21px;
+     font-weight: 60px;
+     background: #C8BDB2;
+     border:  none;
+     border-radius: 9px ;
+     font-family: 'Crimson Text', serif;
+     color: #774533;
+     margin-top: 12px;
+     margin-left: 200px;
+     text-align: center;
        
-        
+     
     }
-
+   
     #schedule{
-        position: absolute;
-        margin-top: 115px;
-        margin-left: 20px;
-}
-
-#theDate{
+     position: absolute;
+     margin-top: 115px;
+     margin-left: 20px;
+   }
+   #theDate{
     margin-right: 10px;
     border-radius: 9px;
     border: none;
@@ -229,43 +235,52 @@ li{
     background: #BCAA98;
     color: #774533;
     min-height: 45px;
-    width: 60px;
+    width: 115px;
     font-size: 20px;
     font-weight: 65px;
-}
-#theTime{
+     background: grey;
+   }
+   #theTime{
     border-radius: 9px;
     border: none;
     box-shadow:   0 0 10px #774533;
-        background: #BCAA98;
+     background: #BCAA98;
     color: #774533;
     min-height: 45px;
-    width: 50px;
+    width: 75px;
     font-size: 20px;
     font-weight: 65px;
-}
-.rendering{
+     background: grey;
+   }
+   .rendering{
     margin-top: 170px;
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 10px;
     
-}
-
-#delete-btn{
+   }
    
+   #delete-btn{
+      
     margin-left: 20px ;
     min-height: 45px;
     
     
-}
-
-#inputHead{
+   }
+   
+   #inputHead{
     margin-left: 40px;
     margin-top: 50px;
-    position: absolute;
+ position: absolute;
 }
 
+#copy{
+ color:#BCAA98;
+ margin-left:30px;
+ margin-top: 100px;
+ position: relative;
+ 
+}
 
 
 
