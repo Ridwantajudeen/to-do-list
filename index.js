@@ -3,6 +3,8 @@ let addBtn = document.getElementById("addBtn")
 let render = document.getElementById("myRender")
 let myDate = document.getElementById("theDate")
 let myTime = document.getElementById("theTime")
+let alarmhour;
+let alarmminute;
 const todoFromLocalStorage = JSON.parse(localStorage.getItem("toDO"))
 let toDO = []
 
@@ -28,13 +30,14 @@ addBtn.addEventListener("click", function () {
    
    
     
-     toDO.push(input.value + " " + myDate.value + " " + myTime.value )
+     toDO.push(input.value + " " + myDate.value  )
     view()
     console.log(toDO)
-    input.value = ""
-    myDate.value = ""
-    myTime.value = ""
-
+     
+   ddate =  myDate.value
+   dtime = myTime.value
+   
+  
   
    
 })
@@ -78,3 +81,5 @@ function view(){
       const year = document.getElementById('year');
 year.innerHTML = new Date().getFullYear();
     console.log(todoFromLocalStorage)
+
+   
